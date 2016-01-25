@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  OneViewController.h
 //  20160125002-UIView-Use
 //
 //  Created by Rainer on 16/1/25.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface OneViewController : UIViewController
 
 @end
-
