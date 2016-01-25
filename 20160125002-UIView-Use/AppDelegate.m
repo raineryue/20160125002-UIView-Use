@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "OneViewController.h"
+#import "TowViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,7 +21,12 @@
 
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    self.window.rootViewController = [[OneViewController alloc] initWithNibName:@"OneViewController" bundle:nil];
+    // 1.xib创建view
+//    self.window.rootViewController = [[OneViewController alloc] initWithNibName:@"OneViewController" bundle:nil];
+    
+    // 2.代码创建view
+    self.window.rootViewController = [[TowViewController alloc] init];
+    
     
     [self.window makeKeyAndVisible];
     

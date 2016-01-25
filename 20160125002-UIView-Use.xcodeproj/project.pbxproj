@@ -17,8 +17,8 @@
 		D50E12EE1C5616850008EF51 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D50E12EB1C5616850008EF51 /* OneViewController.m */; };
 		D50E12EF1C5616850008EF51 /* OneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D50E12EC1C5616850008EF51 /* OneViewController.xib */; };
 		D50E12F01C5616850008EF51 /* OneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D50E12EC1C5616850008EF51 /* OneViewController.xib */; };
-		D50E12F21C5616EE0008EF51 /* TwoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D50E12F11C5616EE0008EF51 /* TwoView.xib */; };
-		D50E12F31C5616EE0008EF51 /* TwoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D50E12F11C5616EE0008EF51 /* TwoView.xib */; };
+		D50E12F61C561AC00008EF51 /* TowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D50E12F51C561AC00008EF51 /* TowViewController.m */; };
+		D50E12F71C561AC00008EF51 /* TowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D50E12F51C561AC00008EF51 /* TowViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +55,8 @@
 		D50E12EA1C5616850008EF51 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
 		D50E12EB1C5616850008EF51 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
 		D50E12EC1C5616850008EF51 /* OneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OneViewController.xib; sourceTree = "<group>"; };
-		D50E12F11C5616EE0008EF51 /* TwoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwoView.xib; sourceTree = "<group>"; };
+		D50E12F41C561AC00008EF51 /* TowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TowViewController.h; sourceTree = "<group>"; };
+		D50E12F51C561AC00008EF51 /* TowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TowViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +112,8 @@
 				D50E12EA1C5616850008EF51 /* OneViewController.h */,
 				D50E12EB1C5616850008EF51 /* OneViewController.m */,
 				D50E12EC1C5616850008EF51 /* OneViewController.xib */,
-				D50E12F11C5616EE0008EF51 /* TwoView.xib */,
+				D50E12F41C561AC00008EF51 /* TowViewController.h */,
+				D50E12F51C561AC00008EF51 /* TowViewController.m */,
 				D50E12C01C5606350008EF51 /* Assets.xcassets */,
 				D50E12C21C5606350008EF51 /* LaunchScreen.storyboard */,
 				D50E12C51C5606350008EF51 /* Info.plist */,
@@ -250,7 +252,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D50E12C41C5606350008EF51 /* LaunchScreen.storyboard in Resources */,
-				D50E12F21C5616EE0008EF51 /* TwoView.xib in Resources */,
 				D50E12C11C5606350008EF51 /* Assets.xcassets in Resources */,
 				D50E12EF1C5616850008EF51 /* OneViewController.xib in Resources */,
 			);
@@ -261,7 +262,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D50E12F01C5616850008EF51 /* OneViewController.xib in Resources */,
-				D50E12F31C5616EE0008EF51 /* TwoView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +282,7 @@
 				D50E12ED1C5616850008EF51 /* OneViewController.m in Sources */,
 				D50E12B91C5606350008EF51 /* AppDelegate.m in Sources */,
 				D50E12B61C5606350008EF51 /* main.m in Sources */,
+				D50E12F61C561AC00008EF51 /* TowViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +292,7 @@
 			files = (
 				D50E12CF1C5606350008EF51 /* _0160125002_UIView_UseTests.m in Sources */,
 				D50E12EE1C5616850008EF51 /* OneViewController.m in Sources */,
+				D50E12F71C561AC00008EF51 /* TowViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
